@@ -122,9 +122,9 @@
   (match e
     ;; literals
     [(? integer? i) i]
-    ['true 'todo]
-    ['false 'todo]
-    [(? symbol? x) 'todo]
+    ['true #t]
+    ['false #f]
+    [(? symbol? x) x]
     [`(,(? bop? bop) ,e0 ,e1) 'todo]
     [`(,(? uop? uop) ,e) 'todo]
     ;; 0-binding case
