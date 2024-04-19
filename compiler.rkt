@@ -133,14 +133,14 @@
     [`(let* ([,(? symbol? x0) ,e0]) ,e-body)
      'todo]
     [`(let* ([,(? symbol? x0) ,e0] ,rest-binding-pairs ...) ,e-body)
-     'todo]
+     (let ([x e0]) (let* (rest-binding-pairs ...) e-body))]
     ;; print an arbitrary expression (must be a number at runtime)
     [`(print ,_)
      'todo]
     ;; and/or, with short-circuiting semantics
-    [`(and ,e0) 'todo]
-    [`(and ,e0 ,es ...) 'todo]
-    [`(or ,e0) 'todo]
+    [`(and ,e0) e0]
+    [`(and ,e0 ,es ...) ]
+    [`(or ,e0) e0]
     [`(or ,e0 ,es ...) 'todo]
     ;; if argument is 0, false, otherwise true
     [`(if ,e0 ,e1 ,e2) 'todo]
