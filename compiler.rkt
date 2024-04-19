@@ -148,7 +148,8 @@
     [`(cond [else ,(? ifarith? else-body)])
      'todo]
     [`(cond [,c0 ,e0] ,rest ...)
-     'todo]))
+     (if c0 e0 (cond rest ...))
+    (cond ([else e]))]))
 
 ;; Stage 3: Administrative Normal Form (ANF)
 ;; 
