@@ -13,8 +13,9 @@ Question 3
 
 
 Question 4
-
-
+Looking throughout the project we encountered 
+-foldl(stage 5)
+-lambda calculus (any) 
 
 
 Question 5
