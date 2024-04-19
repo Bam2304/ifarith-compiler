@@ -9,13 +9,14 @@ Question 2
 
 
 Question 3
-
+Stage 1 is the surface level and 
 
 
 Question 4
-Looking throughout the project we encountered 
+Looking throughout the project we encountered many of the idioms we learned in class. 
 -foldl(stage 5)
 -lambda calculus (any) 
-
+-match cases (todo)
+-let (anywhere)
 
 Question 5
