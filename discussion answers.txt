@@ -13,10 +13,6 @@ Stage 1 is the surface level and
 
 
 Question 4
-Looking throughout the project we encountered many of the idioms we learned in class. 
--foldl(stage 5)
--lambda calculus (any) 
--match cases (todo)
--let (anywhere)
+Looking throughout the project we encountered many of the idioms we learned in class. Foldl was one of the idioms seen mainly in stage 5 of compiler.rkt. Lambda calculus is used to help us create a basis of how ifarith and ifarith-tiny are suppose to function. Inside ifarith->ifarith-tiny the use of match cases are needed to contain all the cases need when going from ifarith to ifarith-tiny. Finally, another component of the function is the use of let and let* which we used in projects 3 and 4 to create binding cases for ifarith->ifarith-tiny.
 
 Question 5
