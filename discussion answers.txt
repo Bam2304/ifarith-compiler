@@ -1,5 +1,7 @@
 Question 1
-The purpose of ir-virtual? is to simulate how assembly works but in racket form. Some of the pros of using ir-virtual? would be that it looks like assembly and feels familiar. Another pro to using ir-virtual? is that it lays out all the steps of the assembly code. ir-virtual? is also an easier version to understand than x86. One of the cons of ir-virtual would be that it is too simplistic. It can also sometimes oversimplify processes. 
+The purpose of ir-virtual? is to simulate how assembly works but in racket form. Some of the pros of using ir-virtual? would be that it looks like assembly and feels familiar. 
+Another pro to using ir-virtual? is that it lays out all the steps of the assembly code. 
+ir-virtual? is also an easier version to understand than x86. One of the cons of ir-virtual would be that it is too simplistic. It can also sometimes oversimplify processes. 
 
 
 Question 2
