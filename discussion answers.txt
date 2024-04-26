@@ -22,7 +22,14 @@ input: '(if 1 (print (+ 2 2 )) (print (+ 1 2)))
 output:#t 
 -
 Question 3
-Stage 1 is the surface level and 
+If the input is 37 that means 37 is in the surface level stage which gets put into the second 
+stage. 
+The second stage desugars it into 37 and from there goes into an administrative normal form which turns 
+the input into a let (example: '(let ((x1254 37)) x1254). The next stage is ir-virtual which is the 
+virtual assembly, which converts it into a simplified version of x86 with virtual registers (example: '(((label lab1255)
+(mov-lit x1254 37)) (return x1254))). The second to last stage produces the actual x86 assembly with stack 
+allocation and real registers after that the assembly file goes into a nasm. For example going from irarith 
+to ifarith-tiny was very redundant because it produced the same input as the source. 
 
 Question 4
 Looking throughout the project we encountered many of the idioms we learned in class. Foldl was one of the idioms 
@@ -37,5 +44,6 @@ Question 5
 **A New Error appeared with an unbounded x we are looking into the cause of this issue
 ** The compiler.rkt doesn't support greater than when running .ifa. It gave the error "match: no matching clause for
 ('> 3 0)
+
 
 High Level Reflection:
