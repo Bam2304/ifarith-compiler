@@ -6,7 +6,10 @@ One of the cons of ir-virtual would be that it is too simplistic. It can also so
 
 Question 2
 We created three examples .ifa programs each running different tests using +, -, and if statements. 
-Each test ran smoothly with each test case without errors or bugs. For example on example2 when running the input 37, the input gets desugared down to ifarith-tiny. After going through irarith-tiny it gets sent to and where it turns into a simple argument from there getting sent to ir-virtual which turns it into an assembly. After turning into an assembly it gets sent down to x86 which is the stack allocation, where it spits out the nasm file which is the assembled file. The example files were placed into the test-program file in the GitHub repo. 
+Each test ran smoothly with each test case without errors or bugs. For example on example2 when running the input 37, the input gets desugared down to ifarith-tiny. 
+After going through irarith-tiny it gets sent to and where it turns into a simple argument from there getting sent to ir-virtual which turns it into an assembly.
+After turning into an assembly it gets sent down to x86 which is the stack allocation, where it spits out the nasm file which is the assembled file. 
+The example files were placed into the test-program file in the GitHub repo. 
 
 Example's ran:
 
