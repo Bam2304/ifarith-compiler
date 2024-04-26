@@ -1,26 +1,26 @@
 Question 1
-The purpose of ir-virtual? is to simulate how assembly works but in racket form. Some of the pros of using ir-virtual? would be that it looks like assembly and feels familiar. 
+The purpose of ir-virtual? is to simulate how assembly works but in racket form. Some of the pros of using ir-virtual? would be that it looks like an assembly and feels familiar. 
 Another pro to using ir-virtual? is that it lays out all the steps of the assembly code. ir-virtual? is also an easier version to understand than x86. 
 One of the cons of ir-virtual would be that it is too simplistic. It can also sometimes oversimplify processes. 
 
 
 Question 2
-We created three example .ifa program each running different tests using +, -, and if statements. 
+We created three examples .ifa programs each running different tests using +, -, and if statements. 
 Each test ran smoothly with each test case without errors or bugs. The example files were placed 
-into the test-program file in the github repo. 
+into the test-program file in the GitHub repo. 
 
 Example's ran:
 
 1)
-
-
+input:
+output:
 
 2)
-
-
+input:
+output:
 3)
 input: '(if 1 (print (+ 2 2 )) (print (+ 1 2)))
-
+output:
 -
 Question 3
 Stage 1 is the surface level and 
@@ -33,9 +33,9 @@ going from ifarith to ifarith-tiny. Finally, another component of the function i
 we used in projects 3 and 4 to create binding cases for ifarith->ifarith-tiny.
 
 Question 5
-**April 26 at 2:31pm initial bug for let* which was already done for us
+**April 26 at 2:31 pm initial bug for let* which was already done for us
 **Changed the Let* and added quasi quoting which seemed to have fixed the issue
-**New Error appeared with an unbounded x we are looking into the cause of this issue
+**A New Error appeared with an unbounded x we are looking into the cause of this issue
 ** The compiler.rkt doesn't support greater than when running .ifa. It gave the error "match: no matching clause for
 ('> 3 0)
 
