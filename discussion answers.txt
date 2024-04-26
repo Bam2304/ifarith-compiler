@@ -19,13 +19,15 @@ Example's ran:
 
 
 3)
+input: '(if 1 (print (+ 2 2 )) (print (+ 1 2)))
 
 -
 Question 3
 Stage 1 is the surface level and 
 
 Question 4
-Looking throughout the project we encountered many of the idioms we learned in class. Foldl was one of the idioms seen mainly in stage 5 of compiler.rkt. Lambda calculus is used to help us create a basis for how ifarith and ifarith-tiny
+Looking throughout the project we encountered many of the idioms we learned in class. Foldl was one of the idioms 
+seen mainly in stage 5 of compiler.rkt. Lambda calculus is used to help us create a basis for how ifarith and ifarith-tiny
 are supposed to function. Inside ifarith->ifarith-tiny match cases are used to contain all the cases needed when
 going from ifarith to ifarith-tiny. Finally, another component of the function is the use of let and let* which 
 we used in projects 3 and 4 to create binding cases for ifarith->ifarith-tiny.
