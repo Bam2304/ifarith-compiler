@@ -5,23 +5,36 @@ One of the cons of ir-virtual would be that it is too simplistic. It can also so
 
 
 Question 2
+We created three example .ifa program each running different tests using +, -, and if statements. 
+Each test ran smoothly with each test case without errors or bugs. The example files were placed 
+into the test-program file in the github repo. 
+
+Example's ran:
+
+1)
 
 
 
+2)
 
+
+3)
+
+-
 Question 3
 Stage 1 is the surface level and 
 
 Question 4
-Looking throughout the project we encountered many of the idioms we learned in class. Foldl was one of the idioms seen mainly in stage 5 of compiler.rkt. 
-Lambda calculus is used to help us create a basis for how ifarith and ifarith-tiny are supposed to function. 
-Inside ifarith->ifarith-tiny match cases are used to contain all the cases needed when going from ifarith to ifarith-tiny. 
-Finally, another component of the function is the use of let and let* which we used in projects 3 and 4 to create binding cases for ifarith->ifarith-tiny.
+Looking throughout the project we encountered many of the idioms we learned in class. Foldl was one of the idioms seen mainly in stage 5 of compiler.rkt. Lambda calculus is used to help us create a basis for how ifarith and ifarith-tiny
+are supposed to function. Inside ifarith->ifarith-tiny match cases are used to contain all the cases needed when
+going from ifarith to ifarith-tiny. Finally, another component of the function is the use of let and let* which 
+we used in projects 3 and 4 to create binding cases for ifarith->ifarith-tiny.
 
 Question 5
 **April 26 at 2:31pm initial bug for let* which was already done for us
-    **Changed the Let* and added quasi quoting which seemed to have fixed the issue
+**Changed the Let* and added quasi quoting which seemed to have fixed the issue
 **New Error appeared with an unbounded x we are looking into the cause of this issue
-
+** The compiler.rkt doesn't support greater than when running .ifa. It gave the error "match: no matching clause for
+('> 3 0)
 
 High Level Reflection:
