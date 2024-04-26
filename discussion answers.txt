@@ -22,3 +22,6 @@ Question 5
 **April 26 at 2:31pm initial bug for let* which was already done for us
     **Changed the Let* and added quasi quoting which seemed to have fixed the issue
 **New Error appeared with an unbounded x we are looking into the cause of this issue
+
+
+High Level Reflection:
