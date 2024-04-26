@@ -12,15 +12,15 @@ into the test-program file in the GitHub repo.
 Example's ran:
 
 1)
-input:
-output:
+input: (* (+ 1 2) (+ 3 4))
+output: 21
 
 2)
-input:
-output:
+input:37
+output:37
 3)
 input: '(if 1 (print (+ 2 2 )) (print (+ 1 2)))
-output:
+output:#t 
 -
 Question 3
 Stage 1 is the surface level and 
