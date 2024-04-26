@@ -45,8 +45,9 @@ Question 5
 **April 26 at 2:31 pm initial bug for let* which was already done for us
 **Changed the Let* and added quasi quoting which seemed to have fixed the issue
 **A New Error appeared with an unbounded x we are looking into the cause of this issue
-** The compiler.rkt doesn't support greater than when running .ifa. It gave the error "match: no matching clause for
-('> 3 0)
-
+** The compiler.rkt doesn't support greater than when running .ifa. It gave the error "match: no matching clause 
+for
+('> 3 0). The argument given was (if (> 3 0) (+ 1 2) (- 7 5)), the argument should have ran 
+but it gave us an error.
 
 High Level Reflection:
